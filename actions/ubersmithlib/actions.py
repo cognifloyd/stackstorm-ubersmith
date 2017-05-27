@@ -25,11 +25,11 @@ class BaseAction(Action):
         
         self.api = None
          
-    def establish_connection(self,ubersmith):
+    def establish_connection(self, ubersmith):
         if (self._connect(ubersmith)):
             return True
         
-    def _connect(self,ubersmith):
+    def _connect(self, ubersmith):
         if self.check_connection():
             return True
         
@@ -58,7 +58,7 @@ class BaseAction(Action):
         
 ########################################################################################################
 
-    def request(self,command,params):
+    def request(self, command, params):
         if not self.check_connection():
             return False
 

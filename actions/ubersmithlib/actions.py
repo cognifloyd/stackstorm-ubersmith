@@ -45,9 +45,9 @@ class BaseAction(Action):
             connection = self.config
 
         self.api = ubersmith_client.api.init(
-                url=connection['url'] + API_VERSION,
-                user=connection['api_user'],
-                password=connection['api_token'])
+            url=connection['url'] + API_VERSION,
+            user=connection['api_user'],
+            password=connection['api_token'])
 
         return True
 

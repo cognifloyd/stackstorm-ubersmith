@@ -22,6 +22,10 @@ ubersmith:
 
 Do not forget to run `st2ctl reload --register-configs` after you make changes to your `configs/ubersmith.yaml` file!
 
+**Note** : When modifying the configuration in `/opt/stackstorm/configs/` please
+           remember to tell StackStorm to load these new values by running
+           `st2ctl reload --register-configs`
+
 ## Todo
 
 ## Requirements

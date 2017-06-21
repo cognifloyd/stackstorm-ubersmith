@@ -1,6 +1,6 @@
 ---
   name: "api_command"
-  runner_type: "run-python"
+  runner_type: "python-script"
   description: "Interact with Ubersmith"
   enabled: true
   entry_point: 'api_command.py'

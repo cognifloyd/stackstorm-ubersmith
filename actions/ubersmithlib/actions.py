@@ -1,6 +1,6 @@
 import ubersmith_client
 
-from st2actions.runners.pythonrunner import Action
+from st2common.runners.base_action import Action
 
 CONNECTION_ITEMS = ['url', 'api_user', 'api_token']
 API_VERSION = "/api/2.0/"

@@ -63,7 +63,7 @@ class BaseAction(Action):
 
         methods = command.split('.')
 
-        if len(methods) is not 2:
+        if len(methods) != 2:
             raise ValueError("Incorrect API command : " + command)
 
         module = getattr(self.api, methods[0])

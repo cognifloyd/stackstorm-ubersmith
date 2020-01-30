@@ -6,3 +6,6 @@ version: 0.2.2
 author: James Cornman
 email: jizaymes@gmail.com
 contributors:
+python_versions:
+  - "2"
+  - "3"
